@@ -1,0 +1,227 @@
+#htable li {
+  background-color: orange;
+  display: inline-block;
+  border-left: solid;
+  border-color: white;
+  color: white;
+  font-family: 'Macondo Swash Caps', cursive;
+  font-size: 22pt;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -10px;
+  padding-right: 0px;
+  padding-left: 20px;
+  text-align: right;
+}
+
+#htable li:first-child {
+  font-size: 30pt;
+  margin-right: 180px;
+  margin-left: -20px;
+  border: none;
+}
+
+#htable li:nth-child(2) {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: orange;
+  display: inline-block;
+  border-left: solid;
+  border-color: white;
+  width: 100%;
+  height: 60px;
+  margin-top: 0px;
+}
+
+.firstRing {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 40%;
+  margin-top: 120px;
+}
+
+#goo1, #goo2 {
+  display: inline-block;
+  border: solid;
+  border-width: 5px;
+  border-radius: 90px;
+  width: 40px;
+  height: 40px;
+  border-color: orange;
+  margin-top: -10px;
+}
+
+#goo3 {
+  font-size: 50px;
+  font-family: 'Macondo Swash Caps', cursive;
+  margin: -30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#goo5 {
+  font-size: 40pt;
+  font-family: 'Macondo Swash Caps', cursive;
+  margin-right: 20px;
+  margin-left: 48%;
+  margin-top: -115px;
+  padding-top: -40px;
+}
+
+#goo4 {
+  display: inline-block;
+  border: solid;
+  border-width: 5px;
+  border-radius: 90px;
+  width: 120px;
+  height: 120px;
+  border-color: yellow;
+  margin-top: 23px;
+  margin-left: 35%;
+  margin-right: 120px;
+  border-width: 15px;
+  -webkit-box-shadow: 10px 10px 0px 1px #f0c20c;
+          box-shadow: 10px 10px 0px 1px #f0c20c;
+}
+
+#lsec {
+  padding: 20px;
+  margin-top: 120px;
+  margin-left: 35%;
+  margin-right: 120px;
+  border-width: 15px;
+}
+
+#lsec #botText {
+  margin-top: 60px;
+  font-family: 'Macondo Swash Caps', cursive;
+  font-size: 40pt;
+}
+
+.black {
+  height: 30px;
+  width: 30px;
+  border: solid 2px;
+  border-radius: 50%;
+  display: inline-block;
+  border-color: #616161;
+  margin-top: 10px;
+  -webkit-filter: drop-shadow(2px 3px 3px black);
+          filter: drop-shadow(2px 3px 3px black);
+}
+
+body {
+  background-image: url(https://image.freepik.com/free-vector/halftone-white-background_115579-724.jpg);
+}
+
+#gl-1 {
+  height: 25px;
+  width: 25px;
+  border-width: 3px;
+  margin: -7px;
+}
+
+#gl-2 {
+  height: 50px;
+  width: 50px;
+  border-width: 6px;
+  margin: -14px;
+}
+
+#gl-3 {
+  height: 75px;
+  width: 75px;
+  border-width: 9px;
+  margin: -21px;
+}
+
+#gl-4 {
+  height: 100px;
+  width: 100px;
+  border-width: 12px;
+  margin: -28px;
+}
+
+#gl-5 {
+  height: 125px;
+  width: 125px;
+  border-width: 15px;
+  margin: -35px;
+}
+
+#gl-6 {
+  height: 150px;
+  width: 150px;
+  border-width: 18px;
+  margin: -42px;
+}
+
+.ringy {
+  height: 30px;
+  width: 30px;
+  border: solid 2px;
+  border-radius: 50%;
+  display: inline-block;
+  border-color: #2A2929;
+  margin-top: 10px;
+  -webkit-filter: drop-shadow(2px 3px 3px black);
+          filter: drop-shadow(2px 3px 3px black);
+}
+
+.wrap {
+  position: relative;
+  width: 500px;
+  height: auto;
+  margin-top: 80px;
+}
+
+.test {
+  width: 160px;
+  background-color: orange;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-bottom: 5px;
+  color: white;
+  padding-right: 20px;
+  font-family: 'Macondo Swash Caps', cursive;
+  margin-left: 30px;
+  font-size: 16pt;
+  height: 20px;
+}
+
+.test2 {
+  width: 220px;
+  background-color: orange;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-bottom: 5px;
+  color: white;
+  margin-left: 180%;
+  margin-top: -65px;
+  font-family: 'Macondo Swash Caps', cursive;
+  font-size: 22pt;
+  height: 100px;
+  padding-bottom: 15px;
+}
+
+span {
+  display: block;
+  font-size: 15pt;
+}
+
+span::before {
+  content: attr(data-text);
+  background: orange;
+  padding: -10px 12px;
+}
+
+footer {
+  background-color: orange;
+  height: 200px;
+  margin-top: 100px;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
